@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div class="main" >
+    <div class="box"></div>
+</div>
+      
+<div class="a" >
+  <div class="mq">
+    <h2 class="b">NETFLIX</h2>
+  </div>
+        <select class="c">
+            <option class="ca" >ガ English</option>
+            <option class="cb" >अ   Hindi</option>
+        </select>
+    <a class="ssq" href="login.html">Sign in</a>
+    <div class="ss" >
+    <h1 class="e" >Editor's Edition</h1>
+    </div>    
+    <p class="f" ><pre class="ff" >        Unlimited Edits,
+Cinemetography and more</pre> </p>
+    <p class="g" > <pre class="k" >Finding Editor or Cinemetographer For your work? </pre></p>
+    <p class="h">Here You Go.</p>
+</div>
+    <div class="i" >
+        <input type="text" class="ia" placeholder="Email Address">
+    </div>     
+    <div class="wq" >
+        <input class="ib" type="submit" value="Start Watching >" class="submit">
+    </div>
+    <r clas="fe" >
+    <br>
+    <hr>
+    <div class="trending-section">
+        
+
+      <!-- Single Switch Button for Movies and TV Shows -->
+      <div class="switch-button">
+          <button id="toggle-button" onclick="toggleMoviesTVShows()">Switch to Edits</button>
+      </div>
+
+      <div class="carousel">
+          <button class="scroll-button left" onclick="scrollLeft()">&#10094;</button>
+
+          <!-- Movies Section -->
+          <div class="movies active">
+              <div class="movie" onclick="playVideo('ed3.mp4')">
+                  <img src="qr.jpeg" height="0px" >
+              
+              </div>
+              <div class="movie" onclick="playVideo('wdi.mp4')">
+                  <img src="qy.jpeg" height="" >
+                  
+              </div>
+              <div class="movie" onclick="playVideo('bf.mp4')">
+                  <img src="maq.jpeg" >
+                  
+              </div>
+              <div class="movie" onclick="playVideo('cd.mp4')">
+                  <img src="ass.jpg" >
+                  
+              </div>
+              <div class="movie" onclick="playVideo('qwe.mp4')">
+                  <img src="mea.jpeg" height="" >
+              </div>
+              <div class="movie" onclick="playVideo('pr.mp4')">
+                <img src="mdd.jpeg" >
+            </div>
+            <div class="movie" onclick="playVideo('cvb.mp4')">
+              <img src="cv a.jpg" >
+          </div>
+          <div class="movie" onclick="playVideo('ree.mp4')">
+            <img src="reee.jpg" >
+        </div>
+        <div class="movie" onclick="playVideo('asd.mp4')">
+          <img src="mcc.jpeg" >
+      </div>
+      <div class="movie" onclick="playVideo('cc.mp4')">
+        <img src="cb.jpg" >
+    </div>
+          </div>
+
+          <!-- TV Shows Section -->
+          <div class="tv-shows">
+              <div class="tv-show" onclick="playVideo('vd.mp4')">
+                  <img src="y6.jpg" >
+                  
+              </div>
+              <div class="tv-show" onclick="playVideo('ud.mp4')">
+                  <img src="y3.jpg" >
+                  
+              </div>
+              <div class="tv-show" onclick="playVideo('mus.mp4')">
+                  <img src="y10.jpg" >
+                  
+              </div>
+              <div class="tv-show" onclick="playVideo('mes.mp4')">
+                  <img src="y14.jpeg">
+                 
+              </div>
+              <div class="tv-show" onclick="playVideo('om.mp4')">
+                  <img src="y15.jpeg" >
+              </div>
+              <div class="tv-show" onclick="playVideo('sx.mp4')">
+                <img src="an.png" >
+            </div>
+            <div class="tv-show" onclick="playVideo('v1.mp4')">
+              <img src="y8.jpg" >
+          </div>
+          <div class="tv-show" onclick="playVideo('a4.mp4')">
+            <img src="eq1.png" >
+        </div>
+        <div class="tv-show" onclick="playVideo('kr.mp4')">
+          <img src="krs.png" >
+      </div>
+      <div class="tv-show" onclick="playVideo('ed1.mp4')">
+        <img src="7ed.png" >
+    </div>
+          </div>
+
+          <button class="scroll-button right" onclick="scrollRight()">&#10095;</button>
+      </div>
+  </div>
+
+  <div id="video-modal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="movie-video" controls></video>
+  </div>
+
+<!-- Top 10 editors -->
+
+<div class="trending-container">
+        
+  <!-- Single Switch Button for Movies and TV Shows -->
+  <div class="toggle-button-container">
+      <button id="toggle-content-button" onclick="toggleMoviesShows()">Switch to Editor</button>
+  </div>
+
+  <div class="content-carousel">
+      <button class="scroll-control left" onclick="scrollLeftContent()">&#10094;</button>
+
+      <!-- Movies Section -->
+      <div class="movie-section active">
+          <div class="content-item" onclick="showInfo('Id - aryanparekh666')">
+              <img src="zh.jpg" alt="Movie 1">
+              
+          </div>
+          <div class="content-item" onclick="showInfo('Id - editors-edition')">
+              <img src="zi.jpg" alt="Movie 2">
+              
+          </div>
+          <div class="content-item" onclick="showInfo('Id - owaixxs')">
+              <img src="zd.jpg" alt="Movie 3">
+              
+          </div>
+          <div class="content-item" onclick="showInfo('Id - camerawalebhaiya')">
+              <img src="zf.jpg" alt="Movie 4">
+             
+          </div>
+          <div class="content-item" onclick="showInfo('Id - parthx_08')">
+              <img src="za.jpg" alt="Movie 5">
+              
+          </div>
+          <div class="content-item" onclick="showInfo('Id - jrfilms._')">
+            <img src="zk.jpg" alt="Movie 1">
+            
+        </div>
+        <div class="content-item" onclick="showInfo('')">
+            <img src="ze.jpg" alt="Movie 2">
+           
+        </div>
+        <div class="content-item" onclick="showInfo('')">
+            <img src="zg.jpg" alt="Movie 3">
+            
+        </div>
+        <div class="content-item" onclick="showInfo('')">
+            <img src="zl.jpg" alt="Movie 4">
+            
+        </div>
+        <div class="content-item" onclick="showInfo('')">
+            <img src="zb.jpg" alt="Movie 5">
+           
+        </div>
+      </div>
+
+      <!-- TV Shows Section -->
+      <div class="tv-show-section">
+          <div class="content-item" onclick="showInfo('Id - udit_edits')">
+              <img src="n6 (2).jpg" alt="TV Show 1">
+              
+          </div>
+          <div class="content-item" onclick="showInfo('Id - sm.edits._')">
+              <img src="sai.jpeg" alt="TV Show 2">
+             
+          </div>
+          <div class="content-item" onclick="showInfo('Id - om.editx')">
+              <img src="e3 (2).jpg" alt="TV Show 3">
+              
+          </div>
+          <div class="content-item" onclick="showInfo('Id - sxit4ma')">
+              <img src="n5.jpg" alt="TV Show 4">
+             
+          </div>
+          <div class="content-item" onclick="showInfo('Id - vaibhav.edit')">
+              <img src="ue.jpeg" alt="TV Show 5">
+              
+          </div>
+          <div class="content-item" onclick="showInfo('')">
+            <img src="sm.jpeg" alt="TV Show 1">
+            
+        </div>
+        <div class="content-item" onclick="showInfo('')">
+            <img src="n2.jpg" alt="TV Show 2">
+            
+        </div>
+        <div class="content-item" onclick="showInfo('')">
+            <img src="n3.jpg" alt="TV Show 3">
+            
+        </div>
+        <div class="content-item" onclick="showInfo('')">
+            <img src="e1.jpg" alt="TV Show 4">
+            
+        </div>
+        <div class="content-item" onclick="showInfo('')">
+            <img src="n6.jpg" alt="TV Show 5">
+            
+        </div>
+      </div>
+
+      <button class="scroll-control right" onclick="scrollRightContent()">&#10095;</button>
+  </div>
+</div>
+
+<!-- Modal for Description -->
+<div id="info-modal" class="info-modal">
+  <div class="info-modal-content">
+      <span class="close-modal" onclick="closeInfoModal()">&times;</span>
+      <img id="info-image" src="" alt="Movie/TV Show Image">
+      <h2 id="info-title"></h2>
+      <p id="info-description"></p>
+  </div>
+</div>
+
+
+<div class="za" >
+    <div class="fr" ><h2 class="hh" >Frequently Asked Questions</h2>
+    <br>
+    <div class="faq-section">
+      <div class="faq">
+          <div class="faq-item">
+              <button class="faq-question">What is Netflix? <span class="plus">+</span></button>
+              <div class="faq-answer">
+                  <p>Netflix is a streaming service that offers a wide variety of TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+              </div>
+          </div>
+          <div class="faq-item">
+              <button class="faq-question">How much does Netflix cost? <span class="plus">+</span></button>
+              <div class="faq-answer">
+                  <p>Plans range from INR 149 to INR 649 a month. No extra costs, no contracts.</p>
+              </div>
+          </div>
+          <div class="faq-item">
+              <button class="faq-question">Where can I watch? <span class="plus">+</span></button>
+              <div class="faq-answer">
+                  <p>You can watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee.</p>
+              </div>
+          </div>
+          <div class="faq-item">
+              <button class="faq-question">How do I cancel? <span class="plus">+</span></button>
+              <div class="faq-answer">
+                  <p>You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<script src="app.js"></script>
+</div>
+<br>
+<br>
+<footer>
+    <div class="questions">Questions? Call 000-800-919-1694</div>
+    <div class="footer">
+        <div class="f1" > 
+            <a class="ir" href="faq" > Investor Relations</a>
+            <a class="ir" href="faq">Jobs</a>
+            <a class="ir" href="faq">Ways to Watch</a>
+            <a class="ir" href="faq">Terms of Use</a>
+        </div>
+
+        <div class="f2"> 
+            <a class="ir" href="faq">Help Centre</a>
+            <a class="ir" href="faq">Account</a>
+            <a class="it" href="faq">Speed Test</a>
+            <a class="iy" href="faq">Legal Notices</a>
+        </div>
+        <div class="f3">
+            <a class="ir" href="faq">Media Centre</a>
+            <a class="iu" href="faq">Privacy</a>
+            <a class="ii" href="faq">Cookie Preferences</a> 
+            <a class="io" href="faq">Corporate</a>
+        </div>
+        <div class="f4">
+            <a href="faq" class="sa">FAQ</a>
+            <a href="faq" class="sb">Ways to watch</a>
+            <a href="faq" class="sc">Only on netflix</a>
+        </div>
+    </div>
+</footer>
+<select class="c1">
+    <option class="c2" >ガ English</option>
+    <option class="c3" >अ   Hindi</option>
+</select>
+<p class="ni">Netflix India</p>
+</div>
+</body>
+</html>
